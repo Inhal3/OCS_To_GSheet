@@ -1,0 +1,761 @@
+{
+  "result": [
+    {
+      "product": {
+        "itemId": "7000008011",
+        "productKey": "7000008011",
+        "partNumber": "MNEQ3ZE/A",
+        "producer": "Apple",
+        "category": "V010000",
+        "itemName": "Ноутбук Apple/ 13-inch MacBook Pro: Apple M2 chip with 8-core CPU and 10-core GPU/8Gb/512GB - Silver",
+        "itemNameRus": "Ноутбук Apple",
+        "productName": "Apple MNEQ3ZE/A",
+        "upc": "194253139430",
+        "traceable": false,
+        "condition": "Regular",
+        "warranty": "unknown",
+        "catalogPath": [
+          {
+            "category": "V01",
+            "name": "Apple"
+          },
+          {
+            "category": "V0100",
+            "name": "Mac"
+          },
+          {
+            "category": "V010000",
+            "name": "MacBook"
+          }
+        ]
+      },
+      "isAvailableForOrder": true,
+      "packageInformation": {
+        "weight": 3.5,
+        "width": 0.105,
+        "height": 0.3,
+        "depth": 0.39,
+        "volume": 0.012285,
+        "multiplicity": 1,
+        "units": "шт"
+      },
+      "price": {
+        "priceList": {
+          "value": 2269.0,
+          "currency": "USD"
+        },
+        "order": {
+          "value": 172897.8,
+          "currency": "RUR"
+        },
+        "discountB2B": 0.0
+      },
+      "locations": [
+        {
+          "location": "МСК",
+          "description": "Москва",
+          "quantity": {
+            "value": 1,
+            "isGreatThan": false
+          },
+          "canReserve": true,
+          "deliveryDate": "2023-03-11T00:00:00"
+        }
+      ]
+    },
+    {
+      "product": {
+        "itemId": "7000005473",
+        "productKey": "7000005473",
+        "partNumber": "MNEJ3ZE/A",
+        "producer": "Apple",
+        "category": "V010000",
+        "itemName": "Ноутбук Apple/ 13-inch MacBook Pro: Apple M2 chip with 8-core CPU and 10-core GPU/8Gb/512GB - Space Gray/EN",
+        "itemNameRus": "Ноутбук Apple",
+        "productName": "Apple MacBook Pro (13 дюймов, M2, 2022 г.) Клавиатура английская",
+        "upc": "194253138532",
+        "traceable": false,
+        "condition": "Regular",
+        "warranty": "unknown",
+        "catalogPath": [
+          {
+            "category": "V01",
+            "name": "Apple"
+          },
+          {
+            "category": "V0100",
+            "name": "Mac"
+          },
+          {
+            "category": "V010000",
+            "name": "MacBook"
+          }
+        ]
+      },
+      "isAvailableForOrder": true,
+      "packageInformation": {
+        "weight": 2.85,
+        "width": 0.115,
+        "height": 0.29,
+        "depth": 0.385,
+        "volume": 0.01283975,
+        "multiplicity": 1,
+        "units": "шт"
+      },
+      "price": {
+        "priceList": {
+          "value": 145689.0,
+          "currency": "RUR"
+        },
+        "order": {
+          "value": 145689.0,
+          "currency": "RUR"
+        },
+        "discountB2B": 0.0
+      },
+      "locations": [
+        {
+          "location": "МСК",
+          "description": "Москва",
+          "quantity": {
+            "value": 3,
+            "isGreatThan": false
+          },
+          "canReserve": true,
+          "deliveryDate": "2023-03-11T00:00:00"
+        }
+      ]
+    },
+    {
+      "product": {
+        "itemId": "7000005478",
+        "productKey": "7000005478",
+        "partNumber": "MK183ZE/A",
+        "producer": "Apple",
+        "category": "V010000",
+        "itemName": "Ноутбук Apple/ 16-inch MacBook Pro: Apple M1 Pro chip with 10-core CPU and 16-core GPU/16GB/512GB SSD - Space Gray/EN",
+        "itemNameRus": "Ноутбук Apple",
+        "productName": "Apple MacBook Pro (16 дюймов, 2021 г.) Клавиатура английская",
+        "upc": "194252546116",
+        "traceable": false,
+        "condition": "Regular",
+        "warranty": "unknown",
+        "catalogPath": [
+          {
+            "category": "V01",
+            "name": "Apple"
+          },
+          {
+            "category": "V0100",
+            "name": "Mac"
+          },
+          {
+            "category": "V010000",
+            "name": "MacBook"
+          }
+        ]
+      },
+      "isAvailableForOrder": true,
+      "packageInformation": {
+        "weight": 4.0,
+        "width": 0.09,
+        "height": 0.33,
+        "depth": 0.44,
+        "volume": 0.013068,
+        "multiplicity": 1,
+        "units": "шт"
+      },
+      "price": {
+        "priceList": {
+          "value": 234929.0,
+          "currency": "RUR"
+        },
+        "order": {
+          "value": 234929.0,
+          "currency": "RUR"
+        },
+        "discountB2B": 0.0
+      },
+      "locations": [
+        {
+          "location": "МСК",
+          "description": "Москва",
+          "quantity": {
+            "value": 1,
+            "isGreatThan": false
+          },
+          "canReserve": true,
+          "deliveryDate": "2023-03-11T00:00:00"
+        }
+      ]
+    },
+    {
+      "product": {
+        "itemId": "7000005481",
+        "productKey": "7000005481",
+        "partNumber": "MK193ZE/A",
+        "producer": "Apple",
+        "category": "V010000",
+        "itemName": "Ноутбук Apple/ 16-inch MacBook Pro: Apple M1 Pro chip with 10-core CPU and 16-core GPU/16GB/1TB SSD - Space Gray/EN",
+        "itemNameRus": "Ноутбук Apple",
+        "productName": "Apple MacBook Pro (16 дюймов, 2021 г.) Клавиатура английская",
+        "upc": "194252546574",
+        "traceable": false,
+        "condition": "Regular",
+        "warranty": "unknown",
+        "catalogPath": [
+          {
+            "category": "V01",
+            "name": "Apple"
+          },
+          {
+            "category": "V0100",
+            "name": "Mac"
+          },
+          {
+            "category": "V010000",
+            "name": "MacBook"
+          }
+        ]
+      },
+      "isAvailableForOrder": true,
+      "packageInformation": {
+        "weight": 4.0,
+        "width": 0.09,
+        "height": 0.33,
+        "depth": 0.44,
+        "volume": 0.013068,
+        "multiplicity": 1,
+        "units": "шт"
+      },
+      "price": {
+        "priceList": {
+          "value": 253019.0,
+          "currency": "RUR"
+        },
+        "order": {
+          "value": 253019.0,
+          "currency": "RUR"
+        },
+        "discountB2B": 0.0
+      },
+      "locations": [
+        {
+          "location": "МСК",
+          "description": "Москва",
+          "quantity": {
+            "value": 4,
+            "isGreatThan": false
+          },
+          "canReserve": true,
+          "deliveryDate": "2023-03-11T00:00:00"
+        }
+      ]
+    },
+    {
+      "product": {
+        "itemId": "7000007095",
+        "productKey": "7000007095",
+        "partNumber": "Z1240002B",
+        "producer": "Apple",
+        "category": "V010000",
+        "itemName": "Ноутбук Apple",
+        "itemNameRus": "Ноутбук Apple",
+        "productName": "Apple MacBook Air 13 2020",
+        "hsCode": "8471300000",
+        "traceable": false,
+        "condition": "Regular",
+        "warranty": "unknown",
+        "catalogPath": [
+          {
+            "category": "V01",
+            "name": "Apple"
+          },
+          {
+            "category": "V0100",
+            "name": "Mac"
+          },
+          {
+            "category": "V010000",
+            "name": "MacBook"
+          }
+        ]
+      },
+      "isAvailableForOrder": true,
+      "packageInformation": {
+        "weight": 4.7,
+        "width": 0.105,
+        "height": 0.26,
+        "depth": 0.35,
+        "volume": 0.009555,
+        "multiplicity": 1,
+        "units": "шт"
+      },
+      "price": {
+        "priceList": {
+          "value": 1519.0,
+          "currency": "USD"
+        },
+        "order": {
+          "value": 115747.8,
+          "currency": "RUR"
+        },
+        "discountB2B": 0.0
+      },
+      "locations": [
+        {
+          "location": "МСК",
+          "description": "Москва",
+          "quantity": {
+            "value": 5,
+            "isGreatThan": true
+          },
+          "canReserve": true,
+          "deliveryDate": "2023-03-11T00:00:00"
+        }
+      ]
+    },
+    {
+      "product": {
+        "itemId": "7000005470",
+        "productKey": "7000005470",
+        "partNumber": "MLXW3ZE/A",
+        "producer": "Apple",
+        "category": "V010000",
+        "itemName": "Ноутбук Apple/ 13-inch MacBook Air: Apple M2 chip with 8-core CPU and 8-core GPU/8Gb/256GB - Space Gray/EN",
+        "itemNameRus": "Ноутбук Apple",
+        "productName": "Apple MacBook Air (M2, 2022 г.)",
+        "upc": "194253080619",
+        "traceable": false,
+        "condition": "Regular",
+        "warranty": "unknown",
+        "catalogPath": [
+          {
+            "category": "V01",
+            "name": "Apple"
+          },
+          {
+            "category": "V0100",
+            "name": "Mac"
+          },
+          {
+            "category": "V010000",
+            "name": "MacBook"
+          }
+        ]
+      },
+      "isAvailableForOrder": true,
+      "packageInformation": {
+        "weight": 2.45,
+        "width": 0.08,
+        "height": 0.28,
+        "depth": 0.375,
+        "volume": 0.0084,
+        "multiplicity": 1,
+        "units": "шт"
+      },
+      "price": {
+        "priceList": {
+          "value": 112479.0,
+          "currency": "RUR"
+        },
+        "order": {
+          "value": 112479.0,
+          "currency": "RUR"
+        },
+        "discountB2B": 0.0
+      },
+      "locations": [
+        {
+          "location": "МСК",
+          "description": "Москва",
+          "quantity": {
+            "value": 4,
+            "isGreatThan": false
+          },
+          "canReserve": true,
+          "deliveryDate": "2023-03-11T00:00:00"
+        }
+      ]
+    },
+    {
+      "product": {
+        "itemId": "7000005471",
+        "productKey": "7000005471",
+        "partNumber": "MNEH3ZE/A",
+        "producer": "Apple",
+        "category": "V010000",
+        "itemName": "Ноутбук Apple/ 13-inch MacBook Pro: Apple M2 chip with 8-core CPU and 10-core GPU, 256GB SSD - Space Grey/EN",
+        "itemNameRus": "Ноутбук Apple",
+        "productName": "Apple MacBook Pro (13 дюймов, M2, 2022 г.) Клавиатура английская",
+        "upc": "194253138983, 194253138082",
+        "traceable": false,
+        "condition": "Regular",
+        "warranty": "unknown",
+        "catalogPath": [
+          {
+            "category": "V01",
+            "name": "Apple"
+          },
+          {
+            "category": "V0100",
+            "name": "Mac"
+          },
+          {
+            "category": "V010000",
+            "name": "MacBook"
+          }
+        ]
+      },
+      "isAvailableForOrder": true,
+      "packageInformation": {
+        "weight": 2.95,
+        "width": 0.115,
+        "height": 0.29,
+        "depth": 0.375,
+        "volume": 0.01250625,
+        "multiplicity": 1,
+        "units": "шт"
+      },
+      "price": {
+        "priceList": {
+          "value": 126319.0,
+          "currency": "RUR"
+        },
+        "order": {
+          "value": 126319.0,
+          "currency": "RUR"
+        },
+        "discountB2B": 0.0
+      },
+      "locations": [
+        {
+          "location": "МСК",
+          "description": "Москва",
+          "quantity": {
+            "value": 12,
+            "isGreatThan": false
+          },
+          "canReserve": true,
+          "deliveryDate": "2023-03-11T00:00:00"
+        }
+      ]
+    },
+    {
+      "product": {
+        "itemId": "7000005472",
+        "productKey": "7000005472",
+        "partNumber": "MNEP3ZE/A",
+        "producer": "Apple",
+        "category": "V010000",
+        "itemName": "Ноутбук Apple/ 13-inch MacBook Pro: Apple M2 chip with 8-core CPU and 10-core GPU, 256GB SSD - Silver/EN",
+        "itemNameRus": "Ноутбук Apple",
+        "productName": "Apple MacBook Pro (13 дюймов, M2, 2022 г.) Клавиатура английская",
+        "traceable": false,
+        "condition": "Regular",
+        "warranty": "unknown",
+        "catalogPath": [
+          {
+            "category": "V01",
+            "name": "Apple"
+          },
+          {
+            "category": "V0100",
+            "name": "Mac"
+          },
+          {
+            "category": "V010000",
+            "name": "MacBook"
+          }
+        ]
+      },
+      "isAvailableForOrder": true,
+      "packageInformation": {
+        "weight": 2.9,
+        "width": 0.115,
+        "height": 0.285,
+        "depth": 0.375,
+        "volume": 0.012290625,
+        "multiplicity": 1,
+        "units": "шт"
+      },
+      "price": {
+        "priceList": {
+          "value": 126319.0,
+          "currency": "RUR"
+        },
+        "order": {
+          "value": 126319.0,
+          "currency": "RUR"
+        },
+        "discountB2B": 0.0
+      },
+      "locations": [
+        {
+          "location": "МСК",
+          "description": "Москва",
+          "quantity": {
+            "value": 1,
+            "isGreatThan": false
+          },
+          "canReserve": true,
+          "deliveryDate": "2023-03-11T00:00:00"
+        }
+      ]
+    },
+    {
+      "product": {
+        "itemId": "7000006060",
+        "productKey": "7000006060",
+        "partNumber": "MK193LL/A",
+        "producer": "Apple",
+        "category": "V010000",
+        "itemName": "Ноутбук Apple",
+        "itemNameRus": "Ноутбук Apple",
+        "productName": "Apple MacBook Pro (16 дюймов, 2021 г.)",
+        "hsCode": "8471300000",
+        "traceable": false,
+        "condition": "Regular",
+        "warranty": "unknown",
+        "catalogPath": [
+          {
+            "category": "V01",
+            "name": "Apple"
+          },
+          {
+            "category": "V0100",
+            "name": "Mac"
+          },
+          {
+            "category": "V010000",
+            "name": "MacBook"
+          }
+        ]
+      },
+      "isAvailableForOrder": true,
+      "packageInformation": {
+        "weight": 3.6,
+        "width": 0.08,
+        "height": 0.28,
+        "depth": 0.39,
+        "volume": 0.008736,
+        "multiplicity": 1,
+        "units": "шт"
+      },
+      "price": {
+        "priceList": {
+          "value": 3609.0,
+          "currency": "USD"
+        },
+        "order": {
+          "value": 275005.8,
+          "currency": "RUR"
+        },
+        "discountB2B": 0.0
+      },
+      "locations": [
+        {
+          "location": "МСК",
+          "description": "Москва",
+          "quantity": {
+            "value": 1,
+            "isGreatThan": false
+          },
+          "canReserve": true,
+          "deliveryDate": "2023-03-11T00:00:00"
+        }
+      ]
+    },
+    {
+      "product": {
+        "itemId": "7000006063",
+        "productKey": "7000006063",
+        "partNumber": "MK1F3LL/A",
+        "producer": "Apple",
+        "category": "V010000",
+        "itemName": "Ноутбук Apple",
+        "itemNameRus": "Ноутбук Apple",
+        "productName": "Apple MacBook Pro (16 дюймов, 2021 г.)",
+        "hsCode": "8471300000",
+        "traceable": false,
+        "condition": "Regular",
+        "warranty": "unknown",
+        "catalogPath": [
+          {
+            "category": "V01",
+            "name": "Apple"
+          },
+          {
+            "category": "V0100",
+            "name": "Mac"
+          },
+          {
+            "category": "V010000",
+            "name": "MacBook"
+          }
+        ]
+      },
+      "isAvailableForOrder": true,
+      "packageInformation": {
+        "weight": 3.6,
+        "width": 0.06,
+        "height": 0.28,
+        "depth": 0.39,
+        "volume": 0.006552,
+        "multiplicity": 1,
+        "units": "шт"
+      },
+      "price": {
+        "priceList": {
+          "value": 3609.0,
+          "currency": "USD"
+        },
+        "order": {
+          "value": 275005.8,
+          "currency": "RUR"
+        },
+        "discountB2B": 0.0
+      },
+      "locations": [
+        {
+          "location": "МСК",
+          "description": "Москва",
+          "quantity": {
+            "value": 3,
+            "isGreatThan": false
+          },
+          "canReserve": true,
+          "deliveryDate": "2023-03-11T00:00:00"
+        }
+      ]
+    },
+    {
+      "product": {
+        "itemId": "7000006067",
+        "productKey": "7000006067",
+        "partNumber": "MNEH3LL/A",
+        "producer": "Apple",
+        "category": "V010000",
+        "itemName": "Ноутбук Apple",
+        "itemNameRus": "Ноутбук Apple",
+        "productName": "Apple MacBook Pro (13 дюймов, M2, 2022 г.)",
+        "upc": "194253137887",
+        "hsCode": "8471300000",
+        "traceable": false,
+        "condition": "Regular",
+        "warranty": "unknown",
+        "catalogPath": [
+          {
+            "category": "V01",
+            "name": "Apple"
+          },
+          {
+            "category": "V0100",
+            "name": "Mac"
+          },
+          {
+            "category": "V010000",
+            "name": "MacBook"
+          }
+        ]
+      },
+      "isAvailableForOrder": true,
+      "packageInformation": {
+        "weight": 3.6,
+        "width": 0.1,
+        "height": 0.29,
+        "depth": 0.38,
+        "volume": 0.01102,
+        "multiplicity": 1,
+        "units": "шт"
+      },
+      "price": {
+        "priceList": {
+          "value": 1919.0,
+          "currency": "USD"
+        },
+        "order": {
+          "value": 146227.8,
+          "currency": "RUR"
+        },
+        "discountB2B": 0.0
+      },
+      "locations": [
+        {
+          "location": "МСК",
+          "description": "Москва",
+          "quantity": {
+            "value": 1,
+            "isGreatThan": false
+          },
+          "canReserve": true,
+          "deliveryDate": "2023-03-11T00:00:00"
+        }
+      ]
+    },
+    {
+      "product": {
+        "itemId": "7000006069",
+        "productKey": "7000006069",
+        "partNumber": "MNEJ3LL/A",
+        "producer": "Apple",
+        "category": "V010000",
+        "itemName": "Ноутбук Apple",
+        "itemNameRus": "Ноутбук Apple",
+        "productName": "Apple MacBook Pro (13 дюймов, M2, 2022 г.)",
+        "hsCode": "8471300000",
+        "traceable": false,
+        "condition": "Regular",
+        "warranty": "unknown",
+        "catalogPath": [
+          {
+            "category": "V01",
+            "name": "Apple"
+          },
+          {
+            "category": "V0100",
+            "name": "Mac"
+          },
+          {
+            "category": "V010000",
+            "name": "MacBook"
+          }
+        ]
+      },
+      "isAvailableForOrder": true,
+      "packageInformation": {
+        "weight": 3.6,
+        "width": 0.1,
+        "height": 0.29,
+        "depth": 0.37,
+        "volume": 0.01073,
+        "multiplicity": 1,
+        "units": "шт"
+      },
+      "price": {
+        "priceList": {
+          "value": 2149.0,
+          "currency": "USD"
+        },
+        "order": {
+          "value": 163753.8,
+          "currency": "RUR"
+        },
+        "discountB2B": 0.0
+      },
+      "locations": [
+        {
+          "location": "МСК",
+          "description": "Москва",
+          "quantity": {
+            "value": 3,
+            "isGreatThan": false
+          },
+          "canReserve": true,
+          "deliveryDate": "2023-03-11T00:00:00"
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

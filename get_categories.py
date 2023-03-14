@@ -2,6 +2,9 @@
 
 
 def categories():
+    """
+    This module gets maximum nested categories from b2b.ocs.ru
+    """
     from cfg.ocs_token import token
     import requests
     import json

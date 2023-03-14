@@ -6,6 +6,11 @@ from cfg.margin_ratio import margin
 
 
 def get_items():
+    """
+    This module gets all goods from api of b2b.ocs.ru and transforms it to
+    json file "json/goods.json"
+    """
+
     start = time.time()
     print('Выгрузка началась')
 
@@ -55,7 +60,7 @@ def get_items():
                               'itemName': item_name,
                               'Price': price + (price * margin)}
 
-    with open('C:\PythonProjects\OCS_To_GSheet\json\goods.json', 'w', encoding='utf-8') as f:
+    with open('json/goods.json', 'w', encoding='utf-8') as f:
         json.dump(goods, f, ensure_ascii=False, indent=2)
         f.close()
     end = str(time.time() - start)[:2:]

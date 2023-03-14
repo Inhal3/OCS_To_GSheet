@@ -6,22 +6,27 @@ from google.oauth2 import service_account
 
 def sheet_upload():
 
-    SCOPES = ['https://www.googleapis.com/auth/spreadsheets']
-    SERVICE_ACCOUNT_FILE = 'C:\PythonProjects\OCS_To_GSheet\cfg\google_credentials.json'
-    SAMPLE_SPREADSHEET_ID = '1JtPgCSjIckcOkcrure7_GLJej3r5Q2pRgtaILJpXOr0'
-    SAMPLE_RANGE_NAME = 'Товары'
+    """
+    This module making our margin on items from "json/goods.json" and uploading them to google sheets
+    Example - https://docs.google.com/spreadsheets/d/1JtPgCSjIckcOkcrure7_GLJej3r5Q2pRgtaILJpXOr0/edit?usp=sharing
+    """
+
+    scopes = ['https://www.googleapis.com/auth/spreadsheets']
+    service_account_file = 'cfg/google_credentials.json'
+    spreadsheet_id = '1JtPgCSjIckcOkcrure7_GLJej3r5Q2pRgtaILJpXOr0'
+    sheet_range = 'Товары'
 
     start = time.time()
 
-    credentials = service_account.Credentials.from_service_account_file(SERVICE_ACCOUNT_FILE, scopes=SCOPES)
+    credentials = service_account.Credentials.from_service_account_file(service_account_file, scopes=scopes)
 
     service = build('sheets', 'v4', credentials=credentials).spreadsheets().values()
-    result = service.get(spreadsheetId=SAMPLE_SPREADSHEET_ID,
-                         range=SAMPLE_RANGE_NAME).execute()
+    result = service.get(spreadsheetId=spreadsheet_id,
+                         range=sheet_range).execute()
 
     sheet_range = 'Товары!A2:D20000'
 
-    with open('C:\PythonProjects\OCS_To_GSheet\json\goods.json', encoding='utf-8') as f:
+    with open('json/goods.json', encoding='utf-8') as f:
         items = json.load(f)
         f.close()
 
@@ -29,14 +34,14 @@ def sheet_upload():
     array = {'values': []}
 
     for i in category_ids:
-        SKU = i
+        sku = i
         category_name = items[i]['categoryName']
         item_name = items[i]['itemName']
         price = items[i]['Price']
 
-        array['values'].append([SKU, category_name, item_name, price])
+        array['values'].append([sku, category_name, item_name, price])
 
-    service.update(spreadsheetId=SAMPLE_SPREADSHEET_ID,
+    service.update(spreadsheetId=spreadsheet_id,
                    range=sheet_range,
                    valueInputOption='RAW',
                    body=array).execute()

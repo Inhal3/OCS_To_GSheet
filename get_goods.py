@@ -14,6 +14,7 @@ def get_items():
     start = time.time()
     print('Выгрузка началась')
 
+    # Getting items list. You can adjust filters  in URL as you wish
     items_response = requests.get(f'https://connector.b2b.ocs.ru/api/v2/catalog/categories/'
                                   f'all/products'
                                   f'?shipmentcity=Москва'
@@ -27,6 +28,7 @@ def get_items():
                                   headers={'accept': 'application/json',
                                            'X-API-Key': token}).json()
 
+    # Getting USD/RUB and EUR/RUB currency rate
     rate_response = requests.get('https://connector.b2b.ocs.ru/api/v2/account/currencies/exchanges',
                                  headers={'X-API-Key': token}).json()
 
@@ -47,6 +49,7 @@ def get_items():
         currency = items_response['result'][i]['price']['priceList']['currency']
         price = int(items_response['result'][i]['price']['priceList']['value'])
 
+        # Checking item currency, exchanging it to RUB and making our margin
         if currency == 'USD':
             goods[item_id] = {'categoryName': category_name,
                               'itemName': item_name,

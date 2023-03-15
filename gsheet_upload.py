@@ -11,20 +11,15 @@ def sheet_upload():
     Example - https://docs.google.com/spreadsheets/d/1JtPgCSjIckcOkcrure7_GLJej3r5Q2pRgtaILJpXOr0/edit?usp=sharing
     """
 
+    # Set preferences and permissions for Google sheets
     scopes = ['https://www.googleapis.com/auth/spreadsheets']
     service_account_file = 'cfg/google_credentials.json'
     spreadsheet_id = '1JtPgCSjIckcOkcrure7_GLJej3r5Q2pRgtaILJpXOr0'
-    sheet_range = 'Товары'
+    credentials = service_account.Credentials.from_service_account_file(service_account_file, scopes=scopes)
+    service = build('sheets', 'v4', credentials=credentials).spreadsheets().values()
+    sheet_range = 'Товары!A2:D20000'
 
     start = time.time()
-
-    credentials = service_account.Credentials.from_service_account_file(service_account_file, scopes=scopes)
-
-    service = build('sheets', 'v4', credentials=credentials).spreadsheets().values()
-    result = service.get(spreadsheetId=spreadsheet_id,
-                         range=sheet_range).execute()
-
-    sheet_range = 'Товары!A2:D20000'
 
     with open('json/goods.json', encoding='utf-8') as f:
         items = json.load(f)

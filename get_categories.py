@@ -1,25 +1,22 @@
-# This module not used yet
-
-from cfg.ocs_token import token
-import requests
-import json
+# This module no longer used
 
 
 def categories():
-
     """
     This module gets maximum nested categories from b2b.ocs.ru
-    and transforming them to json/categories.json
     """
+    from cfg.ocs_token import token
+    import requests
+    import json
 
-    # Getting raw categories list
+    # Получаем сырой список категорий
     category_tree = requests.get("https://connector.b2b.ocs.ru/api/v2/catalog/categories",
                                  headers={'X-API-Key': token}).json()
 
     category_name_id = []
     category_names = []
 
-    # Transforming raw categories list to 'json/categories.json'
+    # Поучаем лист с названиями и ID максимально вложенных категорий
     for a in range(0, len(category_tree)):
         for b in range(0, len(category_tree[a]['children'])):
             if len(category_tree[a]['children'][b]['children']) > 0:

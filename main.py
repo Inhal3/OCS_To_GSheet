@@ -3,9 +3,9 @@ from aiogram.dispatcher import Dispatcher
 from aiogram.utils import executor
 
 import gsheet
+import get_goods
 from cfg import bot_token
 from bot import keyboards
-from get_goods import get_items
 
 # Bot init
 bot = Bot(token=bot_token.token)
@@ -25,7 +25,7 @@ async def start_command(message: types.Message):
 async def text_commands_handler(message: types.Message):
     if message.text == 'Обновить прайс 📃':
         await message.answer('Обновление началось')
-        get_items()
+        get_goods.get_items()
         gsheet.sheet_upload()
         await message.answer('Выгружен список товаров🫡\n'
                              'Таблица обновлена✅')

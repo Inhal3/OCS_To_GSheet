@@ -31,7 +31,7 @@ async def text_commands_handler(message: types.Message):
                              'Таблица обновлена✅')
 
     elif message.text == 'Обновить наценки 💸':
-        await message.answer('Функция в разработке🚧')
+        await message.answer('Функция в разработке 🚧')
 
 
 if __name__ == '__main__':
